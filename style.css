@@ -1,0 +1,22 @@
+@media only screen and (min-width : 769px) {
+
+
+    body{
+        background-color: aqua;
+        color: crimson;
+    }
+
+    #small{
+        display: none;
+    }
+
+    #medium{
+        display: none;
+    }
+
+    #content-large{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

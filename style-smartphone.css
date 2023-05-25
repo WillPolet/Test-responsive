@@ -1,0 +1,22 @@
+@media only screen and (max-width: 300px) {
+    body {
+      background-color: rgb(68, 115, 130);
+      color: rgb(42, 95, 45);
+    }
+
+    #small{
+        display: contents;
+    }
+    
+    #medium{
+        display: none;
+    }
+
+    #large{
+        display: none;
+    }
+
+    .small{
+        display: block
+    }
+  }

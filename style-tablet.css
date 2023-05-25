@@ -1,0 +1,41 @@
+@media only screen and (min-width : 301px) and (max-width: 768px) {
+    *{margin: 0;
+        padding: 0;
+    }
+    
+    body {
+      background-color: lightblue;
+      color: darkblue;
+    }
+
+    #small{
+        display: none;
+    }
+    
+    #medium{
+        display: contents;
+    }
+
+    #large{
+        display: none;
+    }
+
+    #div1{
+        width: 64vw;
+    }
+
+    #div2{
+        width: 33vw;
+    }
+
+    #div3{
+        width: 100vw;
+    }
+
+    #content-large{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+  }
